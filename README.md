@@ -129,6 +129,9 @@ Licensed under the MIT License.
 ACKNOWLEDGEMENTS
 --------------------------------------------------
 
+
+overview of the working of project-:https://drive.google.com/file/d/11cY3HBp3aaY-0pIxyLaighXwp52dyX4q/view?usp=sharing
+
 - Google Gemini API
 - Vercel
 - Render
