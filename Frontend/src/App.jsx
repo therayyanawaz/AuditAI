@@ -7,7 +7,7 @@ import axios from 'axios';
 import Markdown from 'react-markdown';
 
 function App() {
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL ;
 
 
   useEffect(() => {
@@ -20,14 +20,30 @@ function App() {
   const [review, setreview] = useState(``);
 
   async function reviewcode() {
-    try {
-      const response = await axios.post(`${BACKEND_URL}/ai/get-review`, { code });
-      setreview(response.data);
-    } catch (error) {
-      console.error("Error reviewing code:", error);
-      setreview("Error getting review. Please check console for details.");
+  try {
+    console.log("Backend URL:", BACKEND_URL);
+    
+    
+    const response = await axios.post(
+      `${BACKEND_URL}/ai/get-review`.replace(/([^:]\/)\/+/g, "$1"),
+      { code }
+    );
+
+    
+    setreview(response.data);
+
+  } catch (error) {
+    console.error("Error reviewing code:", error);
+
+   
+    if (error.response?.data) {
+      setreview(error.response.data); 
+    } else {
+      setreview("Something went wrong. Please try again.");
     }
   }
+}
+
 
   return (
     <>
