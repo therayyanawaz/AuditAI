@@ -21,15 +21,7 @@
 
 ### 🚀 Why Choose AuditAI?
 
-- **⚡ Lightning-Fast Reviews**: Get comprehensive feedback in seconds using Groq's optimized models
-- **🌍 Universal Language Support**: Works with JavaScript, Python, Java, C++, Go, Rust, and 50+ other languages
-- **🧠 Deep Code Analysis**: Beyond syntax checking - focuses on best practices, performance, and security
-- **🎓 Learning-Focused**: Detailed explanations help you understand *why* changes are needed
-- **🎨 Beautiful Interface**: Modern, responsive design with enhanced Markdown rendering
-- **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **🔒 Privacy-First**: Your code is processed securely and never stored permanently
-- **🌙 Dark Mode Support**: Toggle between light and dark themes
-- **✨ Enhanced Markdown**: Rich formatting with syntax highlighting and contextual icons
+
 
 ## ✨ Features
 
