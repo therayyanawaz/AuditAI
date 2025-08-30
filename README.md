@@ -19,11 +19,9 @@
 
 **AuditAI** is a revolutionary AI-powered code review platform that acts as your personal coding mentor. Leveraging the lightning-fast capabilities of Groq's LLaMA models, it provides instant, intelligent feedback on code written in any programming language. Whether you're a beginner learning to code or an experienced developer seeking optimization insights, AuditAI helps you write better, cleaner, and more efficient code.
 
-### 🚀 Why Choose AuditAI?
 
 
-
-## ✨ Features
+## ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
